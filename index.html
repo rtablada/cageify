@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Cagify</title>
+</head>
+<body>
+	<h1>Cagify</h1>
+
+	<p>Cagify takes all of your images and turns them in to Cage!</p>
+
+	<img src="http://placekitten.com/g/200/300" alt="">
+	<img src="http://placekitten.com/g/500/500" alt="">
+
+	<p>All images will even be loaded at their existing width and height!</p>
+
+	<button id="cagify-me">Cagify This Page!</button>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="/js/cagify.js"></script>
+
+	<script>
+		$('#cagify-me').on('click', function () {
+			$('body').cagify();
+		})
+	</script>
+</body>
+</html>

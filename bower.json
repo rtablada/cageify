@@ -1,0 +1,12 @@
+{
+  "name": "cagify",
+  "version": "1.0.0",
+  "main": "js/cagify.js",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.10.2"
+  }
+}
