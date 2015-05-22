@@ -36,6 +36,14 @@ But if you want, you can just cageify a part of your page.
 $('.not-as-cool').cageify();
 ```
 
+## Options
+
+Want to spruce up your Cage a bit? Try a mode: `'calm'`, `'gray'`, `'crazy'`, or `'gif'`. `'calm'` is the default.
+
+```js
+$('body').cageify({mode: 'gif'});
+```
+
 ## License
 
 This is released under the MIT license.
