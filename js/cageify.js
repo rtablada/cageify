@@ -1,5 +1,5 @@
 (function () {
-	$.fn.cagify = function() {
+	$.fn.cageify = function() {
 		var imgs = this.find('img');
 
 		imgs.each(function (i, el) {

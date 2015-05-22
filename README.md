@@ -1,6 +1,6 @@
-# Cagify
+# Cageify
 
-Cagify is a simple jQuery plugin for making any website MOAR awesome!
+Cageify is a simple jQuery plugin for making any website MOAR awesome!
 
 ## Installation
 
@@ -9,31 +9,31 @@ Cagify is a simple jQuery plugin for making any website MOAR awesome!
 Pull this code in with bower by running the following in your shell:
 
 ```
-bower install cagify
+bower install cageify
 ```
 
 
 1. Include jQuery any way you want (I recommend the Google CDN or putting it in your build process).
-2. Pull in `js/cagify.js` from wherever you got this (hopefully Bower) in your build or as a script tag.
+2. Pull in `js/cageify.js` from wherever you got this (hopefully Bower) in your build or as a script tag.
 
 ## Use
 
-To use Cagify, just call `.cagify()` on any jquery selector!
+To use Cageify, just call `.cageify()` on any jquery selector!
 
 MAKE YOUR PAGE AWESOME!
 
 ```js
-$('body').cagify();
+$('body').cageify();
 ```
 
 ## Too Much Cage?
 
 We don't think so!
 
-But if you want, you can just cagify a part of your page.
+But if you want, you can just cageify a part of your page.
 
 ```js
-$('.not-as-cool').cagify();
+$('.not-as-cool').cageify();
 ```
 
 ## License
